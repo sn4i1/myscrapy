@@ -1,4 +1,4 @@
-# Define here the models for your my items
+# Define here the models for my items
 #
 # See documentation in:
 # http://doc.scrapy.org/topics/items.html
