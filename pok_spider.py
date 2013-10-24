@@ -2,7 +2,7 @@
 from scrapy.selector import HtmlXPathSelector
 from scrapy.contrib.spiders import CrawlSpider, Rule
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
-from tutorial.items import PokItem ##This is the item I defined in items.py
+from pok.items import PokItem ##This is the item I defined in items.py
 
 class MySpider(CrawlSpider):
 	name='google'
