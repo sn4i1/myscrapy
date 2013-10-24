@@ -1,0 +1,13 @@
+# Define here the models for your my items
+#
+# See documentation in:
+# http://doc.scrapy.org/topics/items.html
+
+from scrapy.item import Item, Field
+
+class PokItem(Item):
+	title=Field()
+	url=Field()
+	desc=Field()
+
+
